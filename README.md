@@ -21,7 +21,7 @@ This project is a quick-start template for deploying machine learning models usi
 
 ### 1. Clone the repo
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Krantisinh/mlops-model-deployment.git
 cd mlops_model_deployment_template
 ```
 
@@ -32,7 +32,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-### 3. Train and log your model with MLflow
+### 3. Train and log the model with MLflow
 ```bash
 python train_and_log_model.py
 ```
@@ -40,7 +40,7 @@ python train_and_log_model.py
 - Logs model, score, and parameters in MLflow.
 - Generates `model.pkl` used by FastAPI.
 
-### 4. Serve your model using FastAPI
+### 4. Serve the model using FastAPI
 ```bash
 uvicorn app:app --reload
 ```
@@ -86,7 +86,7 @@ File: `.github/workflows/train.yml`
 - Add unit tests for the API.
 - Deploy to cloud (AWS, GCP, etc.)
 - Use a model registry for version control (e.g., MLflow Registry)
-- Add authentication and logging to your API
+- Add authentication and logging to the API
 ---
 
 ## How it works?
